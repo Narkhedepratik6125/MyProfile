@@ -2,28 +2,53 @@
 <html>
 <head>
 	<title>Personal Info</title>
+    <style>
+        strong{
+            color:#113ebe;
+        }
+        summary{
+            color: #b90000;
+            font-weight: 900;
+            font-size: 20px;
+        }
+        img{
+            width: auto;
+            height: 180px;
+            border-radius: 100px;
+            margin-top: 13px;
+        }
+        .basicInfo{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
 </head>
 <body>
     <h3></h3>
-    <div class="image">
-        <img src="flat-male-avatar-image.jpg" style="width: auto; height: 180px;">
+    <div class="basicInfo">
+        <div class="image">
+            <img src="flat-male-avatar-image.jpg">
+        </div>
+        <div style="margin-left:20px ;margin-top: 20px;">
+            <strong>Name:-</strong><span>Pratik Narkhede</span> <br>
+            <strong>Mobile No:-</strong><span>7719856478</span> <br>
+            <strong>Email:-</strong><span>pratiknarkhede6125@gmail.com</span><br>
+            <strong>DOB:-</strong><span>13/05/1998</span><br>
+            <strong>Address:-</strong><span><strong>At,Post:-</strong> Shelapur <strong>Tal:-</strong> 
+            Motala <strong>Dist:-</strong>Buldhana</span><br>
+            <div style="margin-top: 20px;">
+                <details>
+                    <summary>Family Datails:-</summary>
+                    <ul>
+                        <li><strong>Father Name:-</strong>Pandurang Narkhede</li>
+                        <li><strong>Mother Name:-</strong>Sarala Narkhede</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
     </div>
-    <div style="margin-left:20px ;margin-top: 20px;">
-        <strong>Name:-</strong><span>Pratik Narkhede</span>&nbsp; &nbsp;<br>
-        <strong>Mobile No:-</strong><span>7719856478</span>&nbsp; &nbsp;<br>
-        <strong>Email:-</strong><span>pratiknarkhede6125@gmail.com</span><br>
-        <strong>DOB:-</strong><span>13/05/1998</span><br>
-        <strong>Address:-</strong><span><strong>At,Post:-</strong> Shelapur&nbsp; &nbsp;<strong>Tal:-</strong> 
-        Motala&nbsp; &nbsp;<strong>Dist:-</strong>Buldhana</span><br>
-    </div>
-    <div style="margin-left:20px ;margin-top: 20px;">
-        <details>
-            <summary>Family Datails:-</summary>
-            <ul>
-                <li><strong>Father Name:-</strong>Pandurang Narkhede</li>
-                <li><strong>Mother Name:-</strong>Sarala Narkhede</li>
-            </ul>
-        </details>
-    </div>
+    
+   
 </body>
 </html>
